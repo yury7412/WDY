@@ -364,7 +364,6 @@ img {
 
   .card {
     background: #FFFFFF;
-    border: 1px solid #D3CBFB;
     border-radius: 20px;
     padding: 15px;
     height: auto;
@@ -518,7 +517,6 @@ img {
   }
 
   .btn_about a {
-    background: #4F92CE;
     border-radius: 5px;
     font-size: 14px;
     padding: 6px 58px;
