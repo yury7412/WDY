@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="assets/css/about_me.css">
+
+        <title>Обо мне</title>
+    </head>
+    <body>
+
+        <script>
+            window.onload = function () {
+              document.body.classList.add('loaded_hiding');
+              window.setTimeout(function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+              }, 500);
+            }
+          </script>
+
+        <div class="preloader">
+            <svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path fill="#ff6a00"
+                d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+            </path>
+            </svg>
+        </div>
+        
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">WDY</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">
+                                <i class='bx bx-home-alt nav__icon'></i>
+                                <span class="nav__name">Домой</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="about_me.html" class="nav__link active-link">
+                                <i class='bx bx-user nav__icon'></i>
+                                <span class="nav__name">Обо мне</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="portfolio.html" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>
+                                <span class="nav__name">Портфолио</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="container_section_section__height" id="home">
+                <div class="hero">
+                    <div class="container hero__container">
+                        <div class="hero__box">
+                            <img class="hero__box-img" src="assets/img/Rectangle 18 (1).png" alt="">
+                          </div>
+                      <div class="hero__about">
+                        <h2 class="hero__subtitle">Обо мне</h2>
+                        <h1 class="hero__title"> Дело, которым я живу</h1>
+                        <p class="hero__description">
+                            Меня зовут Юрий, мне 18 лет, учусь в Тольяттинском Социально - Педагогическом колледже, на специальность разработчик веб и мультимедийных приложений. Занимаюсь созданием дизайна, версткой сайтов.
+                        </p>
+                
+                
+                        <a href="https://t.me/Yury763" class="pressed-button">Связаться со мной</a>
+                
+                
+                      </div>
+                
+            </section>
+        </main>
+        
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
